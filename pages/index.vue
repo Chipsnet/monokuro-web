@@ -90,8 +90,20 @@ export default {
   #content {
     background-image: url("~assets/background.png");
     height: 100vh;
-    width: 100vw;
+    width: auto;
     padding: 4% 20%;
+  }
+
+  @media screen and (max-width:480px) { 
+    #content {
+      padding: 4% 10%;
+    }
+  }
+
+  @media screen and (max-width:1024px) { 
+    #content {
+      padding: 4% 10%;
+    }
   }
 
   .box {
@@ -137,5 +149,15 @@ export default {
 
   p {
     font-size: 1.5rem;
+  }
+
+  @media screen and (max-width:480px) { 
+    p, h1 {
+      font-size: 1.1rem;
+    }
+
+    a {
+      font-size: 0.9rem;
+    }
   }
 </style>
