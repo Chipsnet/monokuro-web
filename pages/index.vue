@@ -87,6 +87,12 @@ export default {
     width: 500px;
   }
 
+  @media screen and (max-width:480px) { 
+    .header-logo {
+      width: 300px;
+    }
+  }
+
   #content {
     background-image: url("~assets/background.png");
     height: 100vh;
