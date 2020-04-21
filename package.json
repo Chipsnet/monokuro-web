@@ -1,0 +1,21 @@
+{
+  "name": "monokuro-web",
+  "version": "1.0.0",
+  "description": "Official site of monokurocord",
+  "author": "Minato86",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.12.0",
+    "nuxt": "^2.0.0",
+    "nuxt-svg-loader": "^1.2.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {}
+}
