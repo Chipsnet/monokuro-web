@@ -15,7 +15,8 @@
             <div class="maincontent">
                 <b-link href="/diary">＜一覧に戻る</b-link>
                 <h1 class="title mt-2">{{blogPost.title}}</h1>
-                <p class="h6">{{blogPost.date}}</p>
+                <p class="h6">最終更新: {{blogPost.date}}</p>
+                <p class="h6">書いた人: {{blogPost.author}}</p>
                 <div v-html="$md.render(blogPost.body)" class="my-4"></div>
             </div>
         </div>
