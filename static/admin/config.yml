@@ -15,7 +15,8 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'タイトル', name: 'title', widget: 'string' }
+      - { label: '公開日', name: 'date', widget: 'datetime' }
+      - { label: '説明', name: 'description', widget: 'string' }
+      - { label: '作者', name: 'author', widget: 'string' }
+      - { label: '本文', name: 'body', widget: 'markdown' }
