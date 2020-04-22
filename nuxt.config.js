@@ -44,8 +44,13 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    "nuxt-svg-loader"
+    "nuxt-svg-loader",
+    '@nuxtjs/markdownit'
   ],
+
+  markdownit: {
+    injected: true
+  },
   /*
   ** Build configuration
   */

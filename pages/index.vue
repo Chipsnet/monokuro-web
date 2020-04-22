@@ -6,7 +6,7 @@
     <div id="content">
       <div class="box">
           <b-nav tabs justified class="nav">
-            <b-nav-item link-classes="text-white" @click="menu">Diary</b-nav-item>
+            <b-nav-item link-classes="text-white" href="./diary">Diary</b-nav-item>
             <b-nav-item link-classes="text-white" @click="menu">MONO's House</b-nav-item>
             <b-nav-item active>Town MAP</b-nav-item>
             <b-nav-item link-classes="text-white" @click="menu">Doll's room</b-nav-item>
