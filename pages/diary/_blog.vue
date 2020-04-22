@@ -8,7 +8,7 @@
             <b-nav tabs justified class="nav">
                 <b-nav-item active>Diary</b-nav-item>
                 <b-nav-item link-classes="text-white" @click="menu">MONO's House</b-nav-item>
-                <b-nav-item link-classes="text-white" @click="menu">Town MAP</b-nav-item>
+                <b-nav-item link-classes="text-white" href="/">Town MAP</b-nav-item>
                 <b-nav-item link-classes="text-white" @click="menu">Doll's room</b-nav-item>
                 <b-nav-item link-classes="text-white" @click="menu">Flag</b-nav-item>
             </b-nav>
@@ -128,7 +128,9 @@ export default {
   .title {
     position: relative;
     padding: 0.25em 1em;
-    border: solid 2px black;
+    border: solid 2px blac
+    
+    k;
     border-radius: 3px 0 3px 0;
   }
 
