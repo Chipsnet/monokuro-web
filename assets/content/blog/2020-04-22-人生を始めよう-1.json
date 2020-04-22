@@ -1,6 +1,0 @@
-{
-  "date": "2020-04-22T02:42:37.347Z",
-  "title": "人生を始めよう",
-  "body": "# 最高な人生\n\nお前はカス 俺は天才\n\n豊かな希望を持ってる 最高\n\n<!--StartFragment-->\n\nconstmenuClicked= ()=>{\n\nalert(\"現在開発中です...\")\n\n}\n\n<!--EndFragment-->",
-  "description": "人生を始めましょうね"
-}
