@@ -16,7 +16,7 @@
                 <b-card bg-variant="dark" text-variant="white" class="my-3" v-for="blog in blogPosts" :key="blog.title" v-bind:title="blog.title">
                     <b-card-text class="h6">{{blog.date}}</b-card-text>
                     <b-card-text>{{blog.description}}</b-card-text>
-                    <b-button variant="outline-light" v-bind:href="'./diary/'+blog.slug">もっと見る</b-button>
+                    <b-button variant="outline-light" v-bind:href="'./'+blog.slug">もっと見る</b-button>
                 </b-card>
                 <b-link href="/admin">管理画面</b-link>
             </div>
