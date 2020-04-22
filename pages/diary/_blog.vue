@@ -120,8 +120,8 @@ export default {
 
   .maincontent {
     padding: 30px;
-    font-family: ta-candy,sans-serif;
-    font-weight: 400;
+    font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+    font-weight: 600;
     font-style: normal;
   }
 
