@@ -132,6 +132,9 @@ export default {
 
   .maincontent {
     padding: 30px;
+    font-family: ta-candy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   h1 {
