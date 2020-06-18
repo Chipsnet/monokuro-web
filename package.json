@@ -14,7 +14,7 @@
     "@nuxtjs/markdownit": "1.2.9",
     "bootstrap": "4.5.0",
     "bootstrap-vue": "2.15.0",
-    "nuxt": "2.12.2",
+    "nuxt": "2.13.0",
     "nuxt-svg-loader": "1.2.0",
     "vue": "2.6.11"
   },
