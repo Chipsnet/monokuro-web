@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    titleTemplate: "%s - " + "Mono's Town",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,6 +22,12 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'black'
+  },
   /*
   ** Global CSS
   */
