@@ -34,10 +34,6 @@
             },
         },
 
-        mounted() {
-            Typekit.load({ async: true });
-        },
-
         head() {
             return {
                 title: "Town MAP",

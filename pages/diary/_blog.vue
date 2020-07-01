@@ -12,16 +12,6 @@
     let blogTitle;
 
     export default {
-        methods: {
-            menu() {
-                menuClicked();
-            },
-        },
-
-        mounted() {
-            Typekit.load({ async: true });
-        },
-
         async asyncData({ params, payload }) {
             if (payload) {
                 return { blogPost: payload }

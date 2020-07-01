@@ -22,16 +22,6 @@
 
 <script>
     export default {
-        methods: {
-            menu() {
-                menuClicked();
-            },
-        },
-
-        mounted() {
-            Typekit.load({ async: true });
-        },
-
         head() {
             return {
                 title: "Diary",
