@@ -2,7 +2,7 @@
     <div class="maincontent">
         <b-link to="/diary">＜一覧に戻る</b-link>
         <h1 class="title mt-2">{{ blogPost.title }}</h1>
-        <p class="h6">最終更新: {{ blogPost.date }}</p>
+        <p class="h6">最終更新: {{ blogDate }}</p>
         <p class="h6">書いた人: {{ blogPost.author }}</p>
         <div v-html="$md.render(blogPost.body)" class="my-4"></div>
     </div>
@@ -28,9 +28,11 @@
             } else {
                 let blogPost = await require(`~/assets/content/blog/${params.blog}.json`)
                 blogTitle = blogPost.title;
+
+                let postDateToDate = new Date(blogPost.date)
                 
                 return {
-                    blogPost
+                    blogPost, blogDate: postDateToDate.toLocaleString('ja')
                 };
             }
         },
