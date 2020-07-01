@@ -81,6 +81,7 @@ export default {
   },
 
   generate: {
+    crawler: false,
     routes: function() {
       const fs = require('fs');
       const path = require('path');
