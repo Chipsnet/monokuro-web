@@ -6,9 +6,11 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build --target static",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
   },
   "dependencies": {
     "@nuxtjs/markdownit": "1.2.9",
