@@ -12,7 +12,7 @@
                 ><b-icon-person></b-icon-person> {{ blog.author }}</b-card-text
             >
             <b-card-text>{{ blog.description }}</b-card-text>
-            <b-button variant="outline-light" v-bind:to="'diary/' + blog.slug"
+            <b-button variant="outline-light" v-bind:to="'/diary/' + blog.slug"
                 >もっと見る</b-button
             >
         </b-card>
