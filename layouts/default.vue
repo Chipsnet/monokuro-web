@@ -25,6 +25,7 @@
                 <nuxt />
             </div>
         </div>
+        &copy; 2021 Monokurocord
     </div>
 </template>
 
